@@ -1,0 +1,5 @@
+SELECT id, name
+FROM events
+-- Write your code below
+WHERE (size < 20 OR size > 100) OR  (year < 2000) OR (name ISNULL)
+ORDER BY id DESC;
