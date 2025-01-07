@@ -1,7 +1,7 @@
 # Basic-Queries
 Practice projects taken from Coddy
 
-# Challenge
+# Challenge 1
 
 You have a cyber security firm that experienced an arbitrary attack, resulting in all of your systems shutting down. To solve this issue, you need to identify all of the events that appear suspicious.
 
@@ -18,3 +18,9 @@ Your task:
 3. Return the event IDs and their names in descending order by their ID.
 
 Note: The exact thresholds for 'too small' and 'too big' should be inferred from the data. Look for patterns or outliers in the event sizes to make this determination."
+
+# Challenge 2
+
+Fetch all of the cellphone models that start with the letter m and the 3rd letter is o, the price range is between 1000 and 1500, and they support 5G.
+
+Return only the cellphone model and replace the name to id
