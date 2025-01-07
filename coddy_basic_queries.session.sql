@@ -1,6 +1,6 @@
 CREATE TABLE events(
-    id INT,
+    id INT PRIMARY KEY,
     name VARCHAR,
-    size int,
+    size DEC,
     year INT
-)
+);
