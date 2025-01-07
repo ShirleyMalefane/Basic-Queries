@@ -1,0 +1,3 @@
+SELECT model as id
+FROM cellphones
+WHERE (model LIKE 'm_o%') AND (price BETWEEN 1000 AND 1500) AND (wifi_5g IS TRUE);
